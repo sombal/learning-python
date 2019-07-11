@@ -1,7 +1,7 @@
 from datetime import datetime
 startTime = datetime.now()
 primes = []
-for n in range(2, 100001):
+for n in range(2, 10001):
     for x in range(2, n):
         if n % x == 0:
             #print(n, 'equals', x, '*', n//x)
