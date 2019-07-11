@@ -1,0 +1,4 @@
+# exclude test/helper folders
+.vscode/*
+__pycache__/*
+.pytest_cache/*
