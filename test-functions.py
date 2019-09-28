@@ -1,4 +1,5 @@
-import requests, os
+import os
+import requests
 
 # API auth vars
 clientId = "649122f0-859f-487c-ad09-75528470c6df"
