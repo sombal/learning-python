@@ -1,13 +1,15 @@
 import requests, os, json
 from datetime import datetime
 
+
 # Proxy in case in corp network
 def use_proxy():
     proxy = 'http://aht:MindenFasza69@10.220.40.138:3128'
     os.environ['http_proxy'] = proxy
     os.environ['https_proxy'] = proxy
 
-#use_proxy()
+
+# use_proxy()
 
 # Start main
 startTime = datetime.now()
