@@ -5,13 +5,18 @@ primes = []
 for n in range(2, 10001):
     for x in range(2, n):
         if n % x == 0:
-            # print(n, 'equals', x, '*', n//x)
+            #print(n, 'equals', x, '*', n//x)
             break
     else:
         # loop fell through without finding a factor
-        # print(n, 'is prime')
+        #print(n, 'is prime')
         primes.append(n)
 
+#for i in primes:
+#    print(i, end=' ')
+#print()
+
+print(len(primes), "primes in range.")
 print("Biggest prime in range:", primes[-1])
 endTime = datetime.now()
 print("Total runtime: " + str(endTime - startTime))

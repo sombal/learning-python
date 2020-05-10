@@ -1,7 +1,7 @@
 import pygame, sys
 from pygame.locals import *
 
-pygame.init()
+#pygame.init()
 
 # set up the window
 DISPLAYSURF = pygame.display.set_mode((400, 300), 0, 32)
